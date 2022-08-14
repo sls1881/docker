@@ -18,6 +18,22 @@ Server = Docker Engine takes care of the docker containers
 **Docker is a process
 **Shares host kernel OS
 **Mac uses Linux VM since it doesn't have a kernel
+
+## Dockerizing 
+Packages up your application into an image
+- A cut-down OS
+- A runtime environment like node
+- Application files
+- Third-party libraries
+- Environment variables
+
+## Process
+1. Package application into an image
+2. Tell docker to start a container with the image
+3. The container has it's own file system
+4. Run process locally inside a container
+5. Push image DockerHub (like GitHub) to push to other machines.
+6. Run it virtually anywhere
 ## Why wouldn't the application build the same on another machine?
 - One or more files are missing
 - Software version mismatch
